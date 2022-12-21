@@ -1,18 +1,53 @@
+#sidedive p {
+    padding: 20px;
+}
+
+#sidediv h1 {
+    padding: 20px;
+    font-size: 32px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+table, th, td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0 auto;
+    
+}
+
 img {
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-a:hover {
-    color: green;
+a:hover{
+    background-color: darkgrey;
 }
 
 a {
     color: black;
+    text-decoration: none;
 }
 
-pre{
-    font-size: 14px; }
+p{
+    font-size: 14px; 
+    line-height: 20px;
+}
 
 *{
     margin:0px;
@@ -20,6 +55,18 @@ pre{
     font-family:Arial, Helvetica, sans-serif;
     box-sizing:border-box;
     
+    
+}
+
+nav a:hover {
+    background-color: darkgrey;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
 }
 
 #logodiv{
@@ -29,24 +76,30 @@ pre{
     background-color: rgb(192, 221, 240);
     min-height: 50px;
     line-height: 50px;
-    margin-bottom: 10px;
     font-weight: 700;
     font-size: 18px;
-    color:rgb(52, 52, 206)
+    color:rgb(52, 132, 206);
+    justify-content: center;
+    display: flex;
 }
 
 #navdiv{
     width:100%;
-    background-color: rgb(223, 165, 165);
+    background-color: rgb(192, 221, 240);
     min-height: 50px;
     line-height: 50px;
     text-align: center;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color:rgb(52, 132, 206);
 }
 
 #headerdiv{
     width: 100%;
-    background-color: gray;
+    background-color: lightgray;
     min-height: 100px;
     line-height: 100px;
     text-align: center;
@@ -61,7 +114,7 @@ pre{
 #sidediv{
     min-height:600px;
     text-align: center;
-    background-color: lightblue;
+    background-color: lightgray;
     width: 30%;
     float: left;
     border-radius: 10%;
@@ -113,7 +166,7 @@ pre{
     min-height: 50px;
     line-height: 50px;
     text-align: center;
-    background-color: lightsalmon;
+    background-color: lightgray;
     font-size: smaller;
 }
 
