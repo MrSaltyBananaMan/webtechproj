@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="s21style.css">
+    <link rel="icon" href="favicon.png" type="image">
+    <script src="java.js"></script>
+</head>
+<body>
+    <div id="logodiv"><a href="index.html"><img src="favicon.png" alt="Logo" style="width:40px;height:40px;"></a>WE SELL THE PHONES THAT YOU NEED</div>
+
+    <div id="navdiv"><h1>Welcome to Phones4u</h1></div>
+
+    <div id="headerdiv"><h1>Samsung S21</h1></div>
+
+    <div id="maindiv" class="clearfix">
+        <div id="sidediv"><h1>Samsung S21</h1>
+        <img id="s21pics" src="s21.png" alt="Samsung S21">
+        <button onclick="changeImage()">Next</button></div>
+        
+        <div id="leftdiv"><h2>About Samsung S21</h2>
+        <p>The Samsung S21 is a top-of-the-line smartphone 
+            that boasts a sleek and modern design. It features 
+            a 6.2-inch AMOLED display with a high 
+            resolution of 3200 x 1440 pixels, providing 
+            you with crystal clear visuals for all 
+            your media consumption needs. The phone is 
+            powered by a powerful Snapdragon 888 processor, 
+            ensuring smooth and fast performance, no matter 
+            what tasks you throw at it. </p>
+            <button id="myButton" onclick="toggleContent()">Read More</button>
+        <p id="hiddenContent" style="display:none">
+            The S21 also 
+            comes equipped with a triple camera setup 
+            on the back, consisting of a 64MP main 
+            camera, a 12MP ultra-wide lens, and a 64MP telephoto lens. 
+            With these cameras, you'll be able to capture stunning 
+            photos and videos with incredible detail and clarity. 
+            The phone also has a large 4,000mAh battery that provides 
+            all-day battery life, so you won't have to worry about 
+            running out of power when you're on the go. Overall, 
+            the Samsung S21 is a top-notch smartphone that offers 
+            a premium user experience and state-of-the-art features.</p>
+
+            <table>
+                <tr>
+                  <th>Specification</th>
+                  <th>Samsung S21</th>
+                </tr>
+                <tr>
+                  <td>Display</td>
+                  <td>6.2-inch AMOLED</td>
+                </tr>
+                <tr>
+                  <td>Resolution</td>
+                  <td>3200 x 1440 pixels</td>
+                </tr>
+                <tr>
+                  <td>Processor</td>
+                  <td>Snapdragon 888</td>
+                </tr>
+                <tr>
+                  <td>Rear Camera</td>
+                  <td>64MP main camera + 12MP ultra-wide lens + 64MP telephoto lens</td>
+                </tr>
+                <tr>
+                  <td>Front Camera</td>
+                  <td>10MP</td>
+                </tr>
+                <tr>
+                  <td>Battery</td>
+                  <td>4,000mAh</td>
+                </tr>
+                <tr>
+                  <td>Operating System</td>
+                  <td>Android 11</td>
+                </tr>
+                <tr>
+                  <td>Dimensions</td>
+                  <td>71.2 x 151.7 x 7.9mm</td>
+                </tr>
+                <tr>
+                  <td>Weight</td>
+                  <td>169g</td>
+                </tr>
+              </table>
+        </div>
+        <div id="rightdiv"><h2>Customise Your Phone</h2>
+        <p><label for="colorSelector">Select a color:</label>
+            <select id="colorSelector" onchange="updateTotal()">
+              <option value="20">Purple (+20)</option>
+              <option value="10">Black (+10)</option>
+              <option value="0">White (+0)</option>
+            </select>
+            <label for="conditionSelector">Select a condition:</label>
+            <select id="conditionSelector" onchange="updateTotal()"S>
+              <option value="80">Like New (+80)</option>
+              <option value="50">Mint (+50)</option>
+              <option value="0">Used (+0)</option>
+            </select>
+        </p><p id="totalPrice">Total Price: &euro;500</p>
+        <p><button id="buynowButton" onclick="buynowPopup()">Buy Now</button></p></div>
+        
+    </div>
+
+    <div id="footerdiv">Copyright 2021 &copy; Phones4u</div>
+
+</body>
+</html>
