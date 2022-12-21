@@ -1,0 +1,120 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+    
+    
+}
+
+#logodiv{
+    width: 100%;
+    padding-left: 4%;
+    padding-top: 1%;
+    background-color: rgb(192, 221, 240);
+    min-height: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    color:rgb(52, 132, 206);
+    justify-content: center;
+    display: flex;
+}
+
+#navdiv{
+    width:100%;
+    background-color: rgb(192, 221, 240);
+    min-height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color:rgb(52, 132, 206);
+}
+
+#headerdiv{
+    width: 100%;
+    background-color: lightgray;
+    min-height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+#maindiv{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+#sidediv{
+    min-height:600px;
+    text-align: center;
+    background-color: lightgray;
+    width: 30%;
+    float: left;
+    border-radius: 10%;
+}
+
+#leftdiv{
+    min-height: 600px;
+    width:32.5%;
+    float:left;
+    border-radius: 10%;
+    margin-left: 5%;
+    text-align: center;
+    background-color: lightgray;
+    padding: 30px;
+}
+
+#rightdiv{
+    min-height: 600px;
+    width:32.5%;
+    float:left;
+    border-radius: 10%;
+    text-align: center;
+    background-color: lightgray;
+    padding: 30px;
+}
+
+#footerdiv{
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: lightgray;
+    font-size: smaller;
+}
+
+table, th, td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0 auto;
+    
+}
+
+#buynowButton{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#buynowButton:hover{
+    background-color: green;
+    color: white;
+}
